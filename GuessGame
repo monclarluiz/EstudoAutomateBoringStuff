@@ -20,6 +20,6 @@ for tentativasfeitas in range(1, 7):
         break
 
 if tentativa == numero:
-    print('Parabéns, ' + name + '! Você acertou o número em ' + str(tentativa) + ' tentativas!')
+    print('Parabéns, ' + name + '! Você acertou o número em ' + str(tentativasfeitas) + ' tentativas!')
 else:
     print('Ops... O número que eu pensei foi ' + str(numero))
